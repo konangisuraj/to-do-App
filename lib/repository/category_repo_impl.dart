@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:path_provider/path_provider.dart';
-import 'package:to_do/entities/category_entity.dart';
-import 'package:to_do/repository/category_repository.dart';
+import 'package:todo_app/entities/category_entity.dart';
+import 'package:todo_app/repository/category_repository.dart';
 final class CategoryRepoImpl extends CategoryRepository {
   @override
   Future<CategoryEntity> createCategory({

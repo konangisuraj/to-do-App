@@ -1,4 +1,4 @@
-import 'package:to_do/entities/category_entity.dart';
+import 'package:todo_app/entities/category_entity.dart';
 
 abstract class CategoryRepository {
   Future<CategoryEntity> createCategory({required CategoryEntity category});

@@ -1,4 +1,4 @@
-import 'package:to_do/entities/category_entity.dart';
+import 'package:todo_app/entities/category_entity.dart';
 
 enum TaskPriority { low, medium, high }
 abstract class TaskEntity {
